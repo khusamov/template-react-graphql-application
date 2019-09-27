@@ -1,0 +1,16 @@
+{
+  "name": "boilerplate-graphql",
+  "version": "1.0.0",
+  "description": "Шаблон GraphQL-приложения",
+  "main": "index.js",
+  "private": true,
+  "repository": "git@github.com:khusamov/boilerplate-graphql.git",
+  "author": "Khusamov Sukhrob <khusamov@yandex.ru>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.16.4"
+  }
+}
